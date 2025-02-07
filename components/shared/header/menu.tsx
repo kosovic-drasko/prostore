@@ -13,13 +13,13 @@ const Menu = () => {
           <Button asChild variant='ghost'>
             <Link href='/cart'>
               <ShoppingCart />
-              Cart
+              Korpa
             </Link>
           </Button>
           <Button asChild>
             <Link href='/sign-in'>
               <UserIcon />
-              Sign In
+              Prijavi se
             </Link>
           </Button>
         </nav>
@@ -30,17 +30,17 @@ const Menu = () => {
             </SheetTrigger>
             <SheetContent className='flex flex-col items-start'>
               <SheetTitle>Menu</SheetTitle>
-              <ModeToggle />
+              {/* <ModeToggle /> */}
               <Button asChild variant='ghost'>
                 <Link href='/cart'>
                   <ShoppingCart />
-                  Cart
+                  Korpa
                 </Link>
               </Button>
                <Button asChild>
                 <Link href='/sign-in'>
                   <UserIcon />
-                  Sign In
+                  Prijavi se
                 </Link>
               </Button>
             </SheetContent>
