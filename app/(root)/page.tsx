@@ -1,5 +1,5 @@
 const HomePage = () => {
-  return <>Latest Products</>;
+  return <>Poslednji proizvodi</>;
 };
 
 export default HomePage;
