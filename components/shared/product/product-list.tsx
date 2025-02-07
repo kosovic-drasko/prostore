@@ -19,19 +19,16 @@ const ProductList = ({
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'>
 
 
-{
-  data.map((product: any) => (
-    <ProductCard key={product.slug} product={product} />
-  ))};
+          {
+            data.map((product: any) => (
+              <ProductCard key={product.slug} product={product} />
+            ))};
 
-          {/* {limitedData.map((product: any) => (
-            <>{product.name}</>
-          ))} */}
 
         </div>
       ) : (
         <div>
-          <p>No products found</p>
+          <p>Proizvod nije nađen</p>
         </div>
       )}
     </div>
