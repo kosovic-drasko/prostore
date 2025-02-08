@@ -6,8 +6,8 @@ const HomePage = async () => {
 
   return (
     <div className='space-y-8'>
-      <h2 className='h2-bold'>Nova kolekcija</h2>
-      {/* <ProductList title='Nova kolekcija' data={latestProducts} /> */}
+      <h2 className='h2-bold'>Poslednji artikli</h2>
+      <ProductList title='Nova kolekcija' data={latestProducts} />
     </div>
   );
 };
