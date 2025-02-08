@@ -15,7 +15,7 @@ const NotFound = () => {
       />
       <div className='p-6 rounded-lg shadow-md w-1/3 text-center'>
         <h1 className='text-3xl font-bold mb-4'>Stranica nije nađena</h1>
-        <p className='text-destructive'>Nije moguće naći traženi resurs</p>
+        <p className='text-destructive'>Nije moguće naći traženi artikal</p>
         <Button
           variant='outline'
           className='mt-4 ml-2'
