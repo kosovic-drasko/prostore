@@ -19,6 +19,10 @@ const currency = z
     (value) => /^\d+(\.\d{2})?$/.test(formatNumberWithDecimal(Number(value))),
     'Price must have exactly two decimal places (e.g., 49.99)'
   );
+  export const signInFormSchema = z.object({
+    email: z.string().email('Invalid email address').min(3, 'Email must be at least 3 characters'),
+    password: z.string().min(3, 'Password must be at least 3 characters'),
+  });
 
 function formatNumberWithDecimal(arg0: number): string {
     throw new Error('Function not implemented.');
